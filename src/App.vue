@@ -1,20 +1,31 @@
 <template>
-<img alt="Vue logo" src="./assets/logo.png">
-<HelloWorld msg="Welcome to Maheshwor Vue Js" />
-<HomeScreen  />
-<Button />
+<!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+<!-- <HelloWorld msg="Welcome to Maheshwor Vue Js" />
+<HomeScreen  /> -->
+<GetInputValue/>
+<!-- <Button />
+<TwoWayBinding/> -->
+<Loops/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import HomeScreen from './components/HomeScreen.vue'
-import Button  from './components/Button.vue';
+// import HelloWorld from './components/HelloWorld.vue'
+// import HomeScreen from './components/HomeScreen.vue'
+// import Button  from './components/Button.vue';
+// import TwoWayBinding  from './components/TwoWayBinding.vue';
+import GetInputValue  from './components/GetInputValue.vue';
+import Loops  from './components/Loops.vue';
+
+
 export default {
     name: 'App',
     components: {
-        HelloWorld,
-        HomeScreen,
-        Button,
+        // HelloWorld,
+        // HomeScreen,
+        // Button,
+        // TwoWayBinding,
+        GetInputValue,
+        Loops
     }
 }
 </script>
@@ -24,7 +35,7 @@ export default {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: center;
+ 
     color: #2c3e50;
     margin-top: 60px;
 }
