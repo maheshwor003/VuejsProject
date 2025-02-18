@@ -1,5 +1,5 @@
 <template>
-    <div >
+    <div class="solid">
      <h1>Child Component  </h1>
      <h1>{{name}} </h1>
      <h1>{{user.name}} </h1>
@@ -23,5 +23,6 @@
   h1 {
     color: red;
   }
+
   </style>
   

@@ -1,31 +1,35 @@
 <template>
 <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-<!-- <HelloWorld msg="Welcome to Maheshwor Vue Js" />
-<HomeScreen  /> -->
+<HelloWorld msg="Welcome to Maheshwor Vue Js" />
+<SimpleForm />
+<!-- <HomeScreen  />
 <GetInputValue/>
-<!-- <Button />
-<TwoWayBinding/> -->
-<Loops/>
+ <Button /> 
+<TwoWayBinding/>
+<Loops/> -->
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+ import HelloWorld from './components/HelloWorld.vue'
+  import SimpleForm from './components/SimpleForm.vue'
+  
 // import HomeScreen from './components/HomeScreen.vue'
 // import Button  from './components/Button.vue';
 // import TwoWayBinding  from './components/TwoWayBinding.vue';
-import GetInputValue  from './components/GetInputValue.vue';
-import Loops  from './components/Loops.vue';
+// import GetInputValue  from './components/GetInputValue.vue';
+// import Loops  from './components/Loops.vue';
 
 
 export default {
     name: 'App',
     components: {
-        // HelloWorld,
-        // HomeScreen,
+        HelloWorld,
+        SimpleForm
+      //   HomeScreen,
         // Button,
-        // TwoWayBinding,
-        GetInputValue,
-        Loops
+      //   TwoWayBinding,
+      //  GetInputValue,
+      //  Loops
     }
 }
 </script>
